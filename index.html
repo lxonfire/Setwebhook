@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Telegram webhook - Mr Tools</title>
+  <title>Telegram webhook - lxbadboy</title>
   <link href="./style.css" rel="stylesheet">
 </head>
 <body>
@@ -34,7 +34,7 @@
       var botToken = document.getElementById('botToken').value;
       var dob = document.getElementById('dob').value;
 
-      var url = `https://api.telegram.org/bot${botToken}/setWebhook?url={$webhookUrl}&dob=${dob}`;
+      var url = `https://api.telegram.org/bot${botToken}/setWebhook?url={dob}`;
 
       $.ajax({
         url: url,
