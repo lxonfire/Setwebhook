@@ -34,7 +34,7 @@
       var botToken = document.getElementById('botToken').value;
       var dob = document.getElementById('dob').value;
 
-      var url = `https://api.telegram.org/bot${botToken}/setWebhook?url={dob}`;
+      var url = `https://api.telegram.org/bot${botToken}/setWebhook?url=${dob}`;
 
       $.ajax({
         url: url,
